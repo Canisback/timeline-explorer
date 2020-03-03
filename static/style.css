@@ -1,0 +1,126 @@
+.container{
+	max-width:1540px;
+	margin:auto;
+}
+
+.team-column{
+	display:inline-block;
+	width:50%;
+	min-height:50px;
+}
+
+.team-column.blue > div{
+	min-width:100px;
+	float:right;
+	display:inline-block;
+}
+
+.team-column.red > div{
+	min-width:100px;
+	float:left;
+	display:inline-block;
+}
+
+.blue > .drake{
+	background-image: url('/static/img/blue_dragon.png');
+	padding-left:25px;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.red > .drake{
+	background-image: url('/static/img/red_dragon.png');
+	padding-left:25px;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+
+.blue > .baron{
+	background-image: url('/static/img/blue_baron_nashor.png');
+	padding-left:25px;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.red > .baron{
+	background-image: url('/static/img/red_baron_nashor.png');
+	padding-left:25px;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.selected{
+    outline:solid;
+}
+
+.blue > .tower{
+	background-image: url('/static/img/blue_turret.png');
+	padding-left:25px;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.red > .tower{
+	background-image: url('/static/img/red_turret.png');
+	padding-left:25px;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.score-icon{
+	position: absolute;
+	margin-left: -55px;
+}
+
+.buttonDiv{
+    display:inline-block;
+    margin:20px;
+    font-size:20px;
+    vertical-align: top;
+}
+
+button{
+    font-size:20px;
+}
+
+.eventsPanel{
+    display:inline-block;
+    margin:20px;
+    vertical-align:top;
+}
+
+.eventImage{
+    width:45px;
+    margin:2px;
+}
+.eventScoreImage{
+    width:20px;
+    margin:2px;
+    padding-bottom: 12px;
+}
+.eventAssistImage{
+    width:35px;
+    margin:2px;
+    padding-bottom:5px;
+}
+
+.redEvent{
+    height: 50px;
+    border:solid;
+    border-color:red;
+    margin:2px;
+}
+
+.blueEvent{
+    height: 50px;
+    border:solid;
+    border-color:blue;
+    margin:2px;
+}
+
+.eventTimer{
+    bottom: 18px;
+    position: relative;
+    margin: 5px;
+}
